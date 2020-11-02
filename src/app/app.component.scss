@@ -33,9 +33,10 @@
 }
 
 /* Style the active/current link*/
-.header a.active {
-  background-color: dodgerblue;
+.header a.connect-button {
+  background-color:#f6830f;;
   color: white;
+  border-radius: 30px;
 }
 
 /* Float the link section to the right */
@@ -58,6 +59,37 @@
       font-size: 14pt;
       text-align: center;
   }
+}
+
+.level-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    a {
+        text-decoration: none;
+        color: white;
+        background-color: red;
+        line-height: 440px;
+        font-family: "Bebas Neue";
+        font-size: 56pt;
+        text-align: center;
+        width: 500px;
+        height: 440px;
+    }
+
+    :nth-child(0n+1) {
+        background-color: #F9D56E !important;
+    }
+
+    :nth-child(0n+2) {
+        background-color: #E8505B !important;
+    }
+
+    :nth-child(0n+3) {
+        background-color: #14B1AB !important;
+    }
+    
 }
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
