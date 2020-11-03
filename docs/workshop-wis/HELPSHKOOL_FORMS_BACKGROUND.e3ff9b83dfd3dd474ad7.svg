@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1238.503" height="844.63" viewBox="0 0 1238.503 844.63">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.146" y1="0.854" x2="0.854" y2="0.146" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9d56e" stop-opacity="0.102"/>
+      <stop offset="0.115" stop-color="#f9d56e" stop-opacity="0.118"/>
+      <stop offset="0.248" stop-color="#f9d56e" stop-opacity="0.176"/>
+      <stop offset="0.39" stop-color="#f9d56e" stop-opacity="0.271"/>
+      <stop offset="0.538" stop-color="#f9d56e" stop-opacity="0.4"/>
+      <stop offset="0.692" stop-color="#f9d56e" stop-opacity="0.569"/>
+      <stop offset="0.847" stop-color="#f9d56e" stop-opacity="0.769"/>
+      <stop offset="1" stop-color="#f9d56e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.146" y1="0.146" x2="0.854" y2="0.854" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#14b1ab" stop-opacity="0.102"/>
+      <stop offset="0.139" stop-color="#14b1ab" stop-opacity="0.125"/>
+      <stop offset="0.3" stop-color="#14b1ab" stop-opacity="0.208"/>
+      <stop offset="0.472" stop-color="#14b1ab" stop-opacity="0.337"/>
+      <stop offset="0.652" stop-color="#14b1ab" stop-opacity="0.522"/>
+      <stop offset="0.836" stop-color="#14b1ab" stop-opacity="0.753"/>
+      <stop offset="1" stop-color="#14b1ab"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.146" y1="0.146" x2="0.854" y2="0.854" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e8505b" stop-opacity="0.102"/>
+      <stop offset="0.12" stop-color="#e8505b" stop-opacity="0.122"/>
+      <stop offset="0.258" stop-color="#e8505b" stop-opacity="0.18"/>
+      <stop offset="0.406" stop-color="#e8505b" stop-opacity="0.282"/>
+      <stop offset="0.56" stop-color="#e8505b" stop-opacity="0.424"/>
+      <stop offset="0.72" stop-color="#e8505b" stop-opacity="0.604"/>
+      <stop offset="0.881" stop-color="#e8505b" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#e8505b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.146" y1="0.854" x2="0.854" y2="0.146" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="Groupe_216" data-name="Groupe 216" transform="translate(-284 -154)">
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="79.384" cy="79.384" r="79.384" transform="translate(1191.541 154)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="115.577" cy="115.577" r="115.577" transform="translate(1291.35 215.477)" fill="url(#linear-gradient-2)"/>
+    <circle id="Ellipse_10" data-name="Ellipse 10" cx="224.577" cy="224.577" r="224.577" transform="translate(438.35 549.477)" fill="url(#linear-gradient-3)"/>
+    <circle id="Ellipse_23" data-name="Ellipse 23" cx="180.489" cy="180.489" r="180.489" transform="translate(284 379.891)" fill="url(#linear-gradient-4)"/>
+  </g>
+</svg>
