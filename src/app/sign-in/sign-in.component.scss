@@ -1,0 +1,157 @@
+.signin-form {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  margin-top: 10em;
+  width: 50%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  .switch {
+    width: 250px;
+    height: 34px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Roboto';
+
+    input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+  }
+  .slider {
+    cursor: pointer;
+    background-color: #B9B9B9;
+  }
+  input:checked + .slider {
+    span:nth-child(0n + 1) {
+      background-color: transparent;
+    }
+    span:nth-child(0n + 2) {
+      background-color: #f6830f;
+    }
+  }
+
+  input:focus + .slider {
+    box-shadow: 0 0 1px #f6830f;
+  }
+
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+    height: 34px;
+
+    span:nth-child(0n + 1) {
+      line-height: 34px;
+      vertical-align: middle;
+      float: left;
+      text-align: center;
+      background-color:#f6830f;
+      border-radius: 34px;
+      width: 50%;
+      transition: 0.4s;
+    }
+    span:nth-child(0n + 2) {
+      line-height: 34px;
+      vertical-align: middle;
+      float: right;
+      text-align: center;
+      border-radius: 34px;
+      width: 50%;
+      transition: 0.4s;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 3.5em;
+
+    input:nth-child(0n + 1) {
+        background: url('../../assets/HELPSHKOOL_FORM_USER.svg') no-repeat scroll 12px 12px;
+        padding-left:40px;
+    }
+
+    input:nth-child(0n + 2) {
+        background: url('../../assets/HELPSHKOOL_FORM_MAIL.svg') no-repeat scroll 12px 12px;
+        padding-left:40px;
+    }
+
+    input:nth-child(0n + 3) {
+        background: url('../../assets/HELPSHKOOL_FORM_PASSWORD.svg') no-repeat scroll 12px 12px;
+        padding-left:40px;
+    }
+
+    input {
+      margin-top: 16px;
+      height: 3em;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 20px;
+      text-decoration: none;
+      
+     /* input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px transparent inset !important;
+}*/
+    }
+  }
+
+  .social-signin {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      margin: 0 auto;
+      margin-top: 16px;
+
+      button {
+        height: 3em;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        text-decoration: none;
+        background-color: transparent;
+        cursor: pointer;
+        text-align: start;
+        color: gray;
+        margin-bottom: 16px;
+        &:nth-child(0n + 1) {
+            background: url('../../assets/HELPSHKOOL_FORM_FACEBOOK.svg') no-repeat scroll 10px 5px;
+            padding-left:40px;
+        }
+        &:nth-child(0n + 2) {
+            background: url('../../assets/HELPSHKOOL_FORM_GOOGLE.svg') no-repeat scroll 8px 8px;
+            padding-left:40px;
+        }
+      }
+  }
+
+  .bottom-text {
+      width: 23em;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 2em;
+      margin-bottom: 4em;
+  }
+
+  .submit-button {
+    position: fixed;
+    left: 46.5%;
+    top: 82%;
+    background-color: #f6830f;
+    border: 0;
+    border-radius: 15px;
+    height: 2.5em;
+    width: 10em;
+    color: white;
+  }
+}
+
+svg {
+  position: absolute;
+  top: 0;
+}

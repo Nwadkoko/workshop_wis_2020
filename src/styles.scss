@@ -47,9 +47,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-html,
-head,
-body {
-  //padding-left: 20px;
-  //padding-right: 20px;
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
+
+/* Change the white to any color ;) */
