@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="151" viewBox="0 0 150 151">
+  <g id="picto-programme-jaune" transform="translate(-911 -1257)">
+    <ellipse id="Ellipse_15" data-name="Ellipse 15" cx="75" cy="75.5" rx="75" ry="75.5" transform="translate(911 1257)" fill="#f9d56e"/>
+    <g id="Groupe_33" data-name="Groupe 33" transform="translate(-363.457 122.818)">
+      <path id="Tracé_76" data-name="Tracé 76" d="M1350.9,1242.848l-16.546-12.722a35.715,35.715,0,0,1-10.853-25.83v-20.163a2.934,2.934,0,0,1,1.777-2.737c16.327-6.492,32.325-6.608,47.968.245a2.864,2.864,0,0,1,2.169,2.835v20.9a35.836,35.836,0,0,1-9.6,24.573Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+      <path id="Tracé_77" data-name="Tracé 77" d="M1349.689,1183.5l-11.536,17.3-8.652-8.652" transform="translate(11.304 13.16)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    </g>
+  </g>
+</svg>
