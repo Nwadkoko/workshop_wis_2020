@@ -32,10 +32,27 @@
 
 /* Style the active/current link*/
 .header a.connect-button {
-  background-color: #f6830f;
+  background-color:  #f9d56e;
   color: white;
   border-radius: 30px;
   width: 150px;
+
+  &:hover {
+    animation: colorchange 3s infinite;
+    animation-direction: alternate-reverse;
+  }
+
+  @keyframes colorchange {
+    25%, 50% {
+      background-color: #f9d56e;
+    }
+    50%, 75% {
+      background-color: #14b1ab;
+    }
+    to {
+      background-color:#e8505b;
+    }
+  }
 }
 
 /* Float the link section to the right */

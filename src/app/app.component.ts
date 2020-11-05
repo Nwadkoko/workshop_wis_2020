@@ -1,13 +1,15 @@
 import { DOCUMENT } from '@angular/common';
-import { Component, Inject } from '@angular/core';
+import { AfterViewInit, Component, Inject } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
+import { TimelineLite } from 'gsap';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements AfterViewInit {
   title = 'workshop-wis';
 
   constructor(private router: Router, @Inject(DOCUMENT) private document: Document) {
@@ -17,5 +19,8 @@ export class AppComponent {
         setTimeout(() => {this.document.body.classList.remove('loading')}, 1500);
       }
     })
+  }
+
+  ngAfterViewInit():void {
   }
 }

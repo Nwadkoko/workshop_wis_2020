@@ -164,13 +164,13 @@ body[class*="lycee"] {
   height: 100vh;
   left: 40vw;
   top: 45vh;
-  background-color: #e8505b;
+  background-color: #14b1ab;
   z-index: 10;
 
   router-outlet div.loader {
     display: block;
-    width: 320px;
-    height: 300px;
+    width: 420px;
+    height: 400px;
 
     svg rect {
       fill: #fef5ec;
@@ -201,4 +201,27 @@ body[class*="lycee"] {
     }
   }
 }
+
+.header a.connect-button {
+  background-color:  #f9d56e;
+  color: white;
+  border-radius: 30px;
+  width: 150px;
+
+  &:hover {
+    animation: colorchange 3s infinite !important;
+    animation-direction: alternate-reverse;
+  }
+
+  @keyframes colorchange {
+    25%, 50% {
+      background-color: #f9d56e !important;
+    }
+    50%, 75% {
+      background-color: #14b1ab !important;
+    }
+    to {
+      background-color:#e8505b !important;
+    }
+  }}
 /* Change the white to any color ;) */
