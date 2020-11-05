@@ -156,12 +156,12 @@
           height: 100%;
           z-index: -1;
           .svg-phone {
-            width: 630px;
-            height: 559px;
+            width: 1400px;
+            height: 800px;
             position: absolute;
-            top: 70px;
-            left: 300px;
-            background: url("../../assets/iphone-robot-jaune.png") no-repeat;
+            top: 1px;
+            background: url("../../assets/Groupe\ 372.png") no-repeat;
+            transform: scale(0.7);
           }
         }
       }
