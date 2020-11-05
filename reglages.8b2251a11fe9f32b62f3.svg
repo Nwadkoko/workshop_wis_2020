@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82" height="85.5" viewBox="0 0 82 85.5">
+  <g id="Groupe_155" data-name="Groupe 155" transform="translate(-1270 -862)">
+    <g id="Groupe_153" data-name="Groupe 153" transform="translate(1272.5 864.5)">
+      <path id="Tracé_2264" data-name="Tracé 2264" d="M1281.8,881.324l-4.035-6.717,4.84-4.84,6.717,4.035v.01a18.027,18.027,0,0,1,4.1-1.711l1.9-7.6h6.846l1.9,7.6a18.027,18.027,0,0,1,4.1,1.711v-.01l6.717-4.035,4.84,4.84-4.035,6.717-.011,0a18.106,18.106,0,0,1,1.711,4.109l7.6,1.9v6.846l-7.6,1.9a18.015,18.015,0,0,1-1.711,4.105h.011l4.035,6.717-4.84,4.84-6.717-4.035v-.01a18.027,18.027,0,0,1-4.1,1.711l-1.9,7.6h-6.846l-1.9-7.6a18.027,18.027,0,0,1-4.1-1.711v.01l-6.717,4.035-4.84-4.84,4.035-6.717h.011a18.015,18.015,0,0,1-1.711-4.105l-7.6-1.9v-6.846l7.6-1.9a18.106,18.106,0,0,1,1.711-4.109Z" transform="translate(-1272.5 -864.5)" fill="none" stroke="#f6830f" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <circle id="Ellipse_31" data-name="Ellipse 31" cx="8.5" cy="8.5" r="8.5" transform="translate(18 18)" fill="none" stroke="#f6830f" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    </g>
+    <g id="Groupe_154" data-name="Groupe 154" transform="translate(1314.5 910)">
+      <path id="Tracé_2265" data-name="Tracé 2265" d="M1290.7,888.718l-2.691-4.476,3.23-3.231,4.476,2.691,0,.007a12.157,12.157,0,0,1,2.741-1.141l1.264-5.068h4.563l1.264,5.068a12.157,12.157,0,0,1,2.741,1.141l0-.007,4.476-2.691,3.23,3.231-2.691,4.476-.007,0a12.146,12.146,0,0,1,1.141,2.741l5.068,1.263v4.564l-5.068,1.263a12.146,12.146,0,0,1-1.141,2.741l.007,0,2.691,4.476-3.23,3.231-4.476-2.691,0-.007a12.157,12.157,0,0,1-2.741,1.141l-1.264,5.068h-4.563l-1.264-5.068a12.157,12.157,0,0,1-2.741-1.141l0,.007-4.476,2.691-3.23-3.231,2.691-4.476.007,0a12.146,12.146,0,0,1-1.141-2.741l-5.068-1.263v-4.564l5.068-1.263a12.146,12.146,0,0,1,1.141-2.741Z" transform="translate(-1284.5 -877.5)" fill="none" stroke="#f6830f" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <circle id="Ellipse_32" data-name="Ellipse 32" cx="5.833" cy="5.833" r="5.833" transform="translate(11.666 11.667)" fill="none" stroke="#f6830f" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    </g>
+  </g>
+</svg>
