@@ -17,7 +17,6 @@ export class IntroductionComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.document.body.classList.add('loading');
     this.document.body.classList.add('introduction');
     this.id = this.route.snapshot.paramMap.get('id');
     switch (this.id) {
@@ -36,6 +35,5 @@ export class IntroductionComponent implements OnInit {
       default:
         break;
     }
-    setTimeout(f => {this.document.body.classList.remove('loading')}, 3000);
   }
 }

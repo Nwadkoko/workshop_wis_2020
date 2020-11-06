@@ -154,23 +154,34 @@ body[class*="lycee"] {
   }
 }
 
+body[class*="home"] {
+  .header a.connect-button {
+    background-color: #14b1ab !important;
+  }
+  overflow-x: hidden;
+}
+
 .loader {
   display: none;
 }
 
+.loader-responsive {
+  display: none;
+}
+
 .loading {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  left: 40vw;
-  top: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
   background-color: #14b1ab;
   z-index: 10;
-
+  overflow: hidden;
   router-outlet div.loader {
     display: block;
-    width: 420px;
-    height: 400px;
+    min-width: 60vh;
 
     svg rect {
       fill: #fef5ec;
@@ -225,3 +236,23 @@ body[class*="lycee"] {
     }
   }}
 /* Change the white to any color ;) */
+@media screen and (max-width: 700px) {
+  .loading router-outlet div.loader {
+    display: none;
+  }
+
+  .loading router-outlet div.loader-responsive {
+    display: block;
+    transform: scale(2);
+
+    svg rect {
+      fill: #fef5ec;
+    }
+
+    svg path {
+      stroke-dashoffset: 0;
+      stroke-dasharray: 100%;
+      animation: dash .5s linear infinite alternate-reverse;
+    }
+  }
+}

@@ -1,8 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+body::ng-deep, html::ng-deep {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+footer {
+  height: 50px;
+  width: 100vw;
+  margin-top: 5em;
+
+  .downer-side {
+    height: 20%;
+    span {
+      display: block;
+      width: max-content;
+      margin: 0 auto;
+      height: 100%;
+      font-family: "Roboto";
+      line-height: 70px;
+    }
+  }
+}
+
 .title-container,
 .subtitle-container {
+  text-align: center;
   margin: 0 auto;
   width: 57em;
 
@@ -14,7 +38,7 @@
   }
 
   p {
-    margin-top: .75em;
+    margin-top: 0.75em;
     font-family: "Roboto";
     font-size: 14pt;
     text-align: center;
@@ -50,7 +74,7 @@
       background-size: cover;
       display: inline-block;
       top: calc(50% - 100px);
-      width: 70px;
+      width: 72px;
       height: 77px;
       left: 42%;
     }
@@ -66,7 +90,7 @@
       background-size: cover;
       display: inline-block;
       top: calc(50% - 100px);
-      width: 70px;
+      width: 72px;
       height: 77px;
       left: 42%;
     }
@@ -88,3 +112,39 @@
     }
   }
 }
+
+@media screen and(max-width: 1190px) {
+  .level-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title-container,
+  .subtitle-container {
+    width: 100%;
+  }
+
+  :nth-child(n + 2) {
+    margin-top: 1em;
+  }
+}
+
+@media screen and(max-width: 700px) {
+  .level-container {
+    a {
+      width: 80%;
+    }
+  }
+
+
+
+  footer .downer-side {
+    span {
+      text-align: center;
+      width: 100%;
+      line-height: normal;
+    }
+  }
+}
+
